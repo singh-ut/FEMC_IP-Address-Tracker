@@ -68,8 +68,6 @@ input {
   padding-inline: 15px;
   border-radius: 10px;
   font-size: 14px;
-  font-weight: bold;
-  font-family: monospace;
 }
 
 input::placeholder {
@@ -90,6 +88,10 @@ button {
   color: white;
   cursor: pointer;
   text-transform: uppercase;
+}
+
+button:hover {
+  background: var(--very-dark-gray);
 }
 
 .ip-info {
@@ -117,6 +119,7 @@ button {
   margin-bottom: 10px;
   letter-spacing: 2px;
   font-weight: 700;
+  color: var(--dark-gray);
 }
 .info-value {
   line-height: 1.1;
