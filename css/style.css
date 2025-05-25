@@ -49,6 +49,7 @@ header {
 h1 {
   margin-block: 20px;
   font-size: 28px;
+  color: white;
 }
 
 .search-box {
